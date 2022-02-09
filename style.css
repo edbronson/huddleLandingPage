@@ -33,12 +33,13 @@ header{
 }
 
 .cabecalho__btn-1 {
-    padding: 10px 55px 10px 55px;
+    padding: 10px 45px 10px 45px;
     background-color: #fff;
     border: none;
     box-shadow: 4px 2px 0.4em rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     font-family: 'Poppins', sans-serif;
+    cursor: pointer;
 }
 
 .cabecalho__conteudo {
@@ -67,14 +68,68 @@ header{
     box-shadow: 4px 2px 0.4em rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     font-family: 'Poppins', sans-serif;
+    cursor: pointer;
 }
 
 .cabecalho__mockup {
     margin-top: 90px;
-    max-width:900px;
-    max-height 850px;
+    max-width:500px;
+    max-height: 450px;
     width: auto;
     height: auto;
 }
 
 /*seção de caixas -------------------------------------------------------------------------*/
+
+.caixa {
+    margin-top: 100px;
+}
+
+.caixa__1 {
+    margin: 30px 100px 30px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    box-shadow: 4px 2px 0.5em rgba(0, 0, 0, 0.1);
+    
+}
+
+.caixa__img-1 {
+    max-width:600px;
+    max-height: 550px;
+    width: auto;
+    height: auto;
+}
+
+.caixa__2 {
+    margin: 30px 100px 30px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    box-shadow: 4px 2px 0.5em rgba(0, 0, 0, 0.1);
+}
+
+.caixa__img-2 {
+    max-width:600px;
+    max-height: 550px;
+    width: auto;
+    height: auto;
+}
+
+.caixa__3 {
+    margin: 30px 100px 30px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    box-shadow: 4px 2px 0.5em rgba(0, 0, 0, 0.1);
+}
+
+.caixa__img-3 {
+    max-width:600px;
+    max-height: 550px;
+    width: auto;
+    height: auto;
+}
