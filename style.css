@@ -73,8 +73,8 @@ header{
 
 .cabecalho__mockup {
     margin-top: 90px;
-    max-width:500px;
-    max-height: 450px;
+    max-width:900px;
+    max-height: 850px;
     width: auto;
     height: auto;
 }
@@ -147,6 +147,12 @@ header{
     box-shadow: 4px 2px 0.5em rgba(0, 0, 0, 0.1);
     height: 200px;
     margin: 0 600px 0 600px;
+    padding: 50px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 50;
+    background-color: #fff;
+    
     
 }
 
@@ -167,4 +173,57 @@ header{
 footer{
     background-color: hsl(192, 100%, 9%);
     color: #fff;
+    padding: 150px 200px 0px 200px;
+    margin-top: 170px;
+}
+
+.conteudo__footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 100px 0;
+}
+
+.informacoes {
+    font-size: 0.876rem;
+}
+
+.logo__footer {
+    max-width:200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.info__ipsum {
+    margin-bottom: 20px;
+}
+
+.info__tel {
+    margin-bottom: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+a {
+    color: #fff;
+    font-size: 0.876rem;
+}
+
+ul li{
+    margin-bottom: 20px;
+}
+
+.icones__sociais a{
+   padding: 10px;
+   font-size: 1.345rem;
+}
+
+.copyright {
+    font-size: 0.876rem;
+    margin-top: 50px;
+    margin-left: 1200px;
+    padding: 0 0 40px 0;
 }
