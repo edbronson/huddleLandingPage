@@ -227,3 +227,99 @@ ul li{
     margin-left: 1200px;
     padding: 0 0 40px 0;
 }
+
+/* reponsividade -------------------------------------------------------------------------*/
+
+@media (max-width: 765px){
+    header {
+        background: url("./images/bg-hero-mobile.svg");
+        background-size: cover;
+        
+    }
+
+    .cabecalho{
+        padding: 20px;
+    }
+
+    .cabecalho__topo{
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .cabecalho__conteudo {
+        flex-direction: column;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .cabecalho__btn-1 {
+        width: auto;
+        height: auto;
+    }
+
+    br 
+    { 
+       display: none; 
+    }
+
+    .cabecalho__texto {
+        margin-top: 100px;
+    }
+
+    /* seção de caixas  ---------------------*/
+
+    .caixa__1 {
+        flex-direction: column;
+    }
+
+    .caixa__img-1 {
+        max-width:200px;
+        max-height: 150px;
+    }
+
+    .caixa__2 {
+        flex-direction: column;
+    }
+
+    .caixa__img-2 {
+        max-width:200px;
+        max-height: 150px;
+    }
+
+    .caixa__3 {
+        flex-direction: column;
+    }
+
+    .caixa__img-3 {
+        max-width:200px;
+        max-height: 150px;
+    }
+
+    /*caixa sobreposta ao footer --------------*/
+
+    .caixaSobreposta{
+       margin: 50px;
+       padding: 20px;
+       width: 300px;
+       height: auto;
+       text-align: center;
+       left: 50px;
+    }
+
+    /* footer ---------------------------------*/
+
+    footer{
+        padding: 150px;
+        text-align: center;
+    }
+    .conteudo__footer{
+        flex-direction: column;
+    }
+
+    .copyright {
+        margin-top: 30px;
+        margin-left: 0;
+        padding: 0 0 0 0;
+    }
+
+}
