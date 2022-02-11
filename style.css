@@ -85,6 +85,10 @@ header{
     margin-top: 100px;
 }
 
+.caixa p{
+    margin: 20px 0 20px 0;
+}
+
 .caixa__1 {
     margin: 30px 100px 30px 100px;
     display: flex;
@@ -100,6 +104,7 @@ header{
     max-height: 550px;
     width: auto;
     height: auto;
+    margin: 20px 0 20px 0;
 }
 
 .caixa__2 {
@@ -116,6 +121,7 @@ header{
     max-height: 550px;
     width: auto;
     height: auto;
+    margin: 20px 0 20px 0;
 }
 
 .caixa__3 {
@@ -134,6 +140,7 @@ header{
     max-height: 550px;
     width: auto;
     height: auto;
+    margin: 20px 0 20px 0;
 }
 
 /*caixa sobreposta ao footer -------------------------------------------------------------------------*/
